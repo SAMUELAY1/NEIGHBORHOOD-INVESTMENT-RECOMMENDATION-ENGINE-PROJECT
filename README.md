@@ -49,8 +49,9 @@ By the end of this project, we aim to have:
 - A ranked list of neighborhoods by investment potential
 - Clear, shareable insights through visualizations or a dashboard
 
-- Cleaned Real Estate Dataset – Neighborhood Investment Project
-Overview
+# Cleaned Real Estate Dataset
+## Neighborhood Investment Project
+## Overview
 This repository contains a cleaned and pre-processed real estate dataset, curated as part of a larger project: Neighborhood Investment Recommendation Engine. The goal is to enable data-driven insights into property investments by cleaning, enriching, and preparing raw real estate data for deeper exploratory data analysis and modeling.
 
 # What Was Done – Data Cleaning Highlights
