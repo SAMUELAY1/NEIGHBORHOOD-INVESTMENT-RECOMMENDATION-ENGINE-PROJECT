@@ -48,3 +48,39 @@ By the end of this project, we aim to have:
 - A reproducible notebook pipeline
 - A ranked list of neighborhoods by investment potential
 - Clear, shareable insights through visualizations or a dashboard
+
+# Cleaned Real Estate Dataset
+## Neighborhood Investment Project
+## Overview
+This repository contains a cleaned and pre-processed real estate dataset, curated as part of a larger project: Neighborhood Investment Recommendation Engine. The goal is to enable data-driven insights into property investments by cleaning, enriching, and preparing raw real estate data for deeper exploratory data analysis and modeling.
+
+# What Was Done – Data Cleaning Highlights
+The original dataset had issues like inconsistent formatting, missing values, and outliers. Here's what was addressed:
+## Cleaning Steps:
+* Removed duplicates and handled missing values using .dropna() and .fillna() strategies.
+* Normalized column formats:
+    * Converted price from string ($123,456) to numeric.
+    * Parsed house_size, acre_lot, bed, and bath columns into correct numeric formats.
+* Formatted categorical fields:
+    * Capitalized city names and standardized state names.
+    * Converted zip codes to 5-digit strings.
+* Converted data types:
+    * Changed float columns to integers where appropriate (e.g., bed, bath, price).
+* Filtered outliers in price, acre_lot, and bedroom/bathroom counts.
+* Set meaningful index for the dataset to facilitate easier querying and joining.
+
+## Dataset Fields After Cleaning
+Column Name	Description
+price	Sale price of the property
+bed	Number of bedrooms
+bath	Number of bathrooms
+acre_lot	Size of the lot in acres
+house_size	Size of the house in square feet
+street	Street address
+city	City where property is located
+state	State where property is located
+zip_code	Zip code
+brokered_by	Real estate agency
+status	Listing status
+## File Structure
+* Cleaned_real_estate_data.ipynb – Jupyter notebook with cleaning cod
